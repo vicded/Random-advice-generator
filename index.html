@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" sizes="32x32" href="./img/favicon-32x32.png" />
+    <link rel="stylesheet" href="./styles/main.css" />
+    <title>Advice Generator</title>
+  </head>
+  <body>
+    <section class="container">
+      <!-- title goes here -->
+      <h5 id="title" class="container__title"></h5>
+      <!-- advice goes here  -->
+      <p id="advice" class="container__message"></p>
+      <img
+        class="container__divider"
+        srcset="
+          ./img/pattern-divider-mobile.svg   768w,
+          ./img/pattern-divider-desktop.svg 1200w
+        "
+        sizes="(max-width: 800px) 768px, 1200px"
+        src="./img/pattern-divider-mobile.svg"
+        alt="divider"
+      />
+      <div>
+        <button id="button" class="container__button">
+          <img src="./img/icon-dice.svg" alt="button" />
+        </button>
+      </div>
+    </section>
+    <script src="./js/index.js" type="module"></script>
+  </body>
+</html>
