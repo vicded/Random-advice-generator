@@ -7,4 +7,4 @@ Fetches advice from the adviceslip API using async/await.
 Watch the deployed project here: https://randomadvicevicded.netlify.app/
 adviceslip API: https://api.adviceslip.com/advice
 
-*BUG FIX FOR FIREFOX PENDING WHERE IT FETCHES DE ADVICE BUT IT DOESNT UPDATE IT*
+*BUG FIX FOR FIREFOX PENDING WHERE IT FETCHES THE ADVICE BUT IT DOESNT UPDATE IT*
